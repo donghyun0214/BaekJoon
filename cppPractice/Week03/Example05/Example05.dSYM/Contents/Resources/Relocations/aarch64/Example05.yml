@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/donghyun/DH/code/cppPractice/Week03/Example05/Example05'
+relocations:     []
+...
