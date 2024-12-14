@@ -6,7 +6,13 @@ class Player {
 public:
     Player(int hp, int xp)
     : hp{ hp }, xp{ xp } {
-        cout << "생성자 호출됨" << endl;
+        cout << "Constructor Called" << endl;
+    }
+
+    // Copy Constructor
+    Player(const Player& other)
+        : hp{ other.hp }, xp{ other.xp } {
+        cout << "Copy Constructor Called" << endl;
     }
 
     void Print() {
@@ -18,7 +24,12 @@ private:
     int xp;
 };
 
+void PrintInformation(Player p) {
+    p.Print();
+}
+
 int main() {
-    Player p{10, 2};
+    Player p1{ 10, 2 };
+    Player p2{p1};
     return 0;
 }

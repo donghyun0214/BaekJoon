@@ -41,97 +41,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target PracticeCppCLion
+# Object build statements for EXECUTABLE target Example01
 
 
 #############################################
-# Order-only phony target for PracticeCppCLion
+# Order-only phony target for Example01
 
-build cmake_object_order_depends_target_PracticeCppCLion: phony || .
+build cmake_object_order_depends_target_Example01: phony || .
 
-build CMakeFiles/PracticeCppCLion.dir/main.cpp.o: CXX_COMPILER__PracticeCppCLion_unscanned_Debug /Users/donghyun/DH/code/PracticeCppCLion/main.cpp || cmake_object_order_depends_target_PracticeCppCLion
-  DEP_FILE = CMakeFiles/PracticeCppCLion.dir/main.cpp.o.d
+build CMakeFiles/Example01.dir/Week05_2/Example01/Example01.cpp.o: CXX_COMPILER__Example01_unscanned_Debug /Users/donghyun/DH/code/PracticeCppCLion/Week05_2/Example01/Example01.cpp || cmake_object_order_depends_target_Example01
+  DEP_FILE = CMakeFiles/Example01.dir/Week05_2/Example01/Example01.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/PracticeCppCLion.dir
-  OBJECT_FILE_DIR = CMakeFiles/PracticeCppCLion.dir
+  OBJECT_DIR = CMakeFiles/Example01.dir
+  OBJECT_FILE_DIR = CMakeFiles/Example01.dir/Week05_2/Example01
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target PracticeCppCLion
+# Link build statements for EXECUTABLE target Example01
 
 
 #############################################
-# Link the executable PracticeCppCLion
+# Link the executable Example01
 
-build PracticeCppCLion: CXX_EXECUTABLE_LINKER__PracticeCppCLion_Debug CMakeFiles/PracticeCppCLion.dir/main.cpp.o
+build Example01: CXX_EXECUTABLE_LINKER__Example01_Debug CMakeFiles/Example01.dir/Week05_2/Example01/Example01.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
-  OBJECT_DIR = CMakeFiles/PracticeCppCLion.dir
+  OBJECT_DIR = CMakeFiles/Example01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = PracticeCppCLion
-  TARGET_PDB = PracticeCppCLion.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target test000
-
-
-#############################################
-# Order-only phony target for test000
-
-build cmake_object_order_depends_target_test000: phony || .
-
-build CMakeFiles/test000.dir/test/test000.cpp.o: CXX_COMPILER__test000_unscanned_Debug /Users/donghyun/DH/code/PracticeCppCLion/test/test000.cpp || cmake_object_order_depends_target_test000
-  DEP_FILE = CMakeFiles/test000.dir/test/test000.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/test000.dir
-  OBJECT_FILE_DIR = CMakeFiles/test000.dir/test
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test000
-
-
-#############################################
-# Link the executable test000
-
-build test000: CXX_EXECUTABLE_LINKER__test000_Debug CMakeFiles/test000.dir/test/test000.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
-  OBJECT_DIR = CMakeFiles/test000.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = test000
-  TARGET_PDB = test000.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target test22
-
-
-#############################################
-# Order-only phony target for test22
-
-build cmake_object_order_depends_target_test22: phony || .
-
-build CMakeFiles/test22.dir/test2/test22.cpp.o: CXX_COMPILER__test22_unscanned_Debug /Users/donghyun/DH/code/PracticeCppCLion/test2/test22.cpp || cmake_object_order_depends_target_test22
-  DEP_FILE = CMakeFiles/test22.dir/test2/test22.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/test22.dir
-  OBJECT_FILE_DIR = CMakeFiles/test22.dir/test2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test22
-
-
-#############################################
-# Link the executable test22
-
-build test22: CXX_EXECUTABLE_LINKER__test22_Debug CMakeFiles/test22.dir/test2/test22.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
-  OBJECT_DIR = CMakeFiles/test22.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = test22
-  TARGET_PDB = test22.dbg
+  TARGET_FILE = Example01
+  TARGET_PDB = Example01.dbg
 
 
 #############################################
@@ -167,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug
 
-build all: phony PracticeCppCLion test000 test22
+build all: phony Example01
 
 # =============================================================================
 # Built-in targets
