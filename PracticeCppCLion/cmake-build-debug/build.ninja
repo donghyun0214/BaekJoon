@@ -102,6 +102,37 @@ build test000: CXX_EXECUTABLE_LINKER__test000_Debug CMakeFiles/test000.dir/test/
   TARGET_FILE = test000
   TARGET_PDB = test000.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test22
+
+
+#############################################
+# Order-only phony target for test22
+
+build cmake_object_order_depends_target_test22: phony || .
+
+build CMakeFiles/test22.dir/test2/test22.cpp.o: CXX_COMPILER__test22_unscanned_Debug /Users/donghyun/DH/code/PracticeCppCLion/test2/test22.cpp || cmake_object_order_depends_target_test22
+  DEP_FILE = CMakeFiles/test22.dir/test2/test22.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/test22.dir
+  OBJECT_FILE_DIR = CMakeFiles/test22.dir/test2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test22
+
+
+#############################################
+# Link the executable test22
+
+build test22: CXX_EXECUTABLE_LINKER__test22_Debug CMakeFiles/test22.dir/test2/test22.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/test22.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test22
+  TARGET_PDB = test22.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug
 
-build all: phony PracticeCppCLion test000
+build all: phony PracticeCppCLion test000 test22
 
 # =============================================================================
 # Built-in targets

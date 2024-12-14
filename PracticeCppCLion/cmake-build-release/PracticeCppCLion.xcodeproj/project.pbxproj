@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		09358F5A4C55BE3E30941D63 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2D0D4ABB70C3410E9EEF5F20 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				131547222584A9816D45B024 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		667BB7243DC1281BE216B4CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77285790BFD34B3ABC7EB432 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				AD4F8C95FA25EB1BC433A1AA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				52293E13E59849469CF16C97 /* PBXTargetDependency */,
+				CD38E50FC5C149FC969F166E /* PBXTargetDependency */,
+				E00AC7D524E9427F9108C548 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		33CCB726E6A842E7A3D16DF2 /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A8C55A7A22464F1793952D8B /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */; };
+		8A7EBDA9061D43329E84B644 /* /Users/donghyun/DH/code/PracticeCppCLion/test/test000.cpp */ = {isa = PBXBuildFile; fileRef = 5D3EB782BAE94CBBA2F77A6C /* /Users/donghyun/DH/code/PracticeCppCLion/test/test000.cpp */; };
+		A14E5EB32C8A40608E4A9F48 /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 243A27C810374B4B8C6AF141 /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */; };
+		A51AF8F2D9BC4914A901A6B1 /* /Users/donghyun/DH/code/PracticeCppCLion/main.cpp */ = {isa = PBXBuildFile; fileRef = 1F6A8A4CFC714FF292F65817 /* /Users/donghyun/DH/code/PracticeCppCLion/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3EAA6443176D4779AAB62DC1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5DC9C14550884FEDBA7122A0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7739FA0B7FBD4B1D85BAD7FD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D31690564AC44AC785085BEC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		5262704218C34F428CCD7D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CE5B620BB649008A1120F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09358F5A4C55BE3E30941D63;
+			remoteInfo = ZERO_CHECK;
+		};
+		8E690675A00646EB9AB812E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CE5B620BB649008A1120F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09358F5A4C55BE3E30941D63;
+			remoteInfo = ZERO_CHECK;
+		};
+		C2F31701533E421B8A426AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CE5B620BB649008A1120F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09358F5A4C55BE3E30941D63;
+			remoteInfo = ZERO_CHECK;
+		};
+		ED3F98CD5EFA457BA4E4AA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CE5B620BB649008A1120F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F96D6BB7002788D95E7FB2;
+			remoteInfo = test000;
+		};
+		F87BFDDAC12E48F4B787C2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CE5B620BB649008A1120F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35877ABB42A81FD871424D9;
+			remoteInfo = PracticeCppCLion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6A8A4CFC714FF292F65817 /* /Users/donghyun/DH/code/PracticeCppCLion/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		243A27C810374B4B8C6AF141 /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4D531AFA44AD4D2E83337FA3 /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5D3EB782BAE94CBBA2F77A6C /* /Users/donghyun/DH/code/PracticeCppCLion/test/test000.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test000.cpp; path = test/test000.cpp; sourceTree = SOURCE_ROOT; };
+		A0FE2B0C7C084616B7B987D4 /* test000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = test000; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C55A7A22464F1793952D8B /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EC23BCB19411414985289E5C /* PracticeCppCLion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = PracticeCppCLion; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA6E4E5898E42169AB2B59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC0D3D0C3AF4E0295B7E4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0491F62878A9452E93155A82 /* test000 */ = {
+			isa = PBXGroup;
+			children = (
+				891A9BA009BD4BA386275E25 /* Source Files */,
+				243A27C810374B4B8C6AF141 /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */,
+			);
+			name = test000;
+			sourceTree = "<group>";
+		};
+		457D9BEDE19442178A89DD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC23BCB19411414985289E5C /* PracticeCppCLion */,
+				A0FE2B0C7C084616B7B987D4 /* test000 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681AB7BE91834960A09D737B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		891A9BA009BD4BA386275E25 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EB782BAE94CBBA2F77A6C /* /Users/donghyun/DH/code/PracticeCppCLion/test/test000.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		94B625785394464BBABC5BDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9570E7DB67EC4E54BC6B55ED /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A8A4CFC714FF292F65817 /* /Users/donghyun/DH/code/PracticeCppCLion/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9733B4DD45ED4D1184B8DD4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08DD62C83014CECA767F80D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				681AB7BE91834960A09D737B /* CMake Rules */,
+				4D531AFA44AD4D2E83337FA3 /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C5FFED6FB94E4A7F9A568F93 = {
+			isa = PBXGroup;
+			children = (
+				E3E69C42C08141828DE30B41 /* PracticeCppCLion */,
+				0491F62878A9452E93155A82 /* test000 */,
+				A08DD62C83014CECA767F80D /* ALL_BUILD */,
+				457D9BEDE19442178A89DD09 /* Products */,
+				9733B4DD45ED4D1184B8DD4E /* Frameworks */,
+				94B625785394464BBABC5BDB /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E69C42C08141828DE30B41 /* PracticeCppCLion */ = {
+			isa = PBXGroup;
+			children = (
+				9570E7DB67EC4E54BC6B55ED /* Source Files */,
+				A8C55A7A22464F1793952D8B /* /Users/donghyun/DH/code/PracticeCppCLion/CMakeLists.txt */,
+			);
+			name = PracticeCppCLion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82F96D6BB7002788D95E7FB2 /* test000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EB416F957B46129669396D /* Build configuration list for PBXNativeTarget "test000" */;
+			buildPhases = (
+				0859CBB2FB844927917BB3FF /* Sources */,
+				EAC0D3D0C3AF4E0295B7E4EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2EF08A38C44FC183308A90 /* PBXTargetDependency */,
+			);
+			name = test000;
+			productName = test000;
+			productReference = A0FE2B0C7C084616B7B987D4 /* test000 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B35877ABB42A81FD871424D9 /* PracticeCppCLion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8064BAF80B5E49F2A11D241B /* Build configuration list for PBXNativeTarget "PracticeCppCLion" */;
+			buildPhases = (
+				0653A3F9CB9949B7AE2F9DD1 /* Sources */,
+				AEA6E4E5898E42169AB2B59E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF6E75A164144B1880BE607 /* PBXTargetDependency */,
+			);
+			name = PracticeCppCLion;
+			productName = PracticeCppCLion;
+			productReference = EC23BCB19411414985289E5C /* PracticeCppCLion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CE5B620BB649008A1120F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
+			};
+			buildConfigurationList = 87AA7EA679E844598626C2D2 /* Build configuration list for PBXProject "PracticeCppCLion" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7739FA0B7FBD4B1D85BAD7FD /* Debug */,
+				3EAA6443176D4779AAB62DC1 /* Release */,
+				5DC9C14550884FEDBA7122A0 /* MinSizeRel */,
+				D31690564AC44AC785085BEC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C5FFED6FB94E4A7F9A568F93;
+			projectDirPath = /Users/donghyun/DH/code/PracticeCppCLion;
+			projectRoot = "";
+			targets = (
+				667BB7243DC1281BE216B4CF /* ALL_BUILD */,
+				B35877ABB42A81FD871424D9 /* PracticeCppCLion */,
+				09358F5A4C55BE3E30941D63 /* ZERO_CHECK */,
+				82F96D6BB7002788D95E7FB2 /* test000 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131547222584A9816D45B024 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  make -f /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  make -f /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  make -f /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  make -f /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AD4F8C95FA25EB1BC433A1AA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0653A3F9CB9949B7AE2F9DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51AF8F2D9BC4914A901A6B1 /* /Users/donghyun/DH/code/PracticeCppCLion/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0859CBB2FB844927917BB3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7EBDA9061D43329E84B644 /* /Users/donghyun/DH/code/PracticeCppCLion/test/test000.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52293E13E59849469CF16C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09358F5A4C55BE3E30941D63 /* ZERO_CHECK */;
+			targetProxy = 8E690675A00646EB9AB812E1 /* PBXContainerItemProxy */;
+		};
+		7BF6E75A164144B1880BE607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09358F5A4C55BE3E30941D63 /* ZERO_CHECK */;
+			targetProxy = 5262704218C34F428CCD7D86 /* PBXContainerItemProxy */;
+		};
+		BA2EF08A38C44FC183308A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09358F5A4C55BE3E30941D63 /* ZERO_CHECK */;
+			targetProxy = C2F31701533E421B8A426AB2 /* PBXContainerItemProxy */;
+		};
+		CD38E50FC5C149FC969F166E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35877ABB42A81FD871424D9 /* PracticeCppCLion */;
+			targetProxy = F87BFDDAC12E48F4B787C2DB /* PBXContainerItemProxy */;
+		};
+		E00AC7D524E9427F9108C548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F96D6BB7002788D95E7FB2 /* test000 */;
+			targetProxy = ED3F98CD5EFA457BA4E4AA99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A6166A2ACB444D58EEAE41A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PracticeCppCLion;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/PracticeCppCLion.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0DD81B9C3A4841A2986CABF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test000;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/test000.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		10CC26D2AD4A425AB4426DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1CA5A70E05D240DD850D16F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PracticeCppCLion;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/PracticeCppCLion.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1D5E2FF761B44108986CF273 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test000;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/test000.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		22162364916845D7A1C66306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		28EA9188BE1D458C8D739FE9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3C2806D8D51543288741D235 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build";
+			};
+			name = MinSizeRel;
+		};
+		3D76B674899F47389F146FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SYMROOT = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build";
+			};
+			name = Debug;
+		};
+		6870570B97EB4A039A89F86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PracticeCppCLion;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/PracticeCppCLion.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		770CA2A39F6F4B2488A5876A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8241028D5E9E4CF09547B637 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8FB85C2CA3F94230A62B5D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9216D5257A44437F88BEFCED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A32B3C113C3A44C2A2533C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A864F9D8C76D46A8BE81FE36 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C3F1AD489813495692B99B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test000;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/test000.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E0E2077D16A8407E8AA98D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build";
+			};
+			name = Release;
+		};
+		E1E185D80BA94D3ABE1A34D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test000;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/test000.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F59762DD4780487B96B31555 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PracticeCppCLion;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/build/PracticeCppCLion.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0D4ABB70C3410E9EEF5F20 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22162364916845D7A1C66306 /* Debug */,
+				8FB85C2CA3F94230A62B5D36 /* Release */,
+				28EA9188BE1D458C8D739FE9 /* MinSizeRel */,
+				9216D5257A44437F88BEFCED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77285790BFD34B3ABC7EB432 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32B3C113C3A44C2A2533C0E /* Debug */,
+				10CC26D2AD4A425AB4426DBE /* Release */,
+				A864F9D8C76D46A8BE81FE36 /* MinSizeRel */,
+				770CA2A39F6F4B2488A5876A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8064BAF80B5E49F2A11D241B /* Build configuration list for PBXNativeTarget "PracticeCppCLion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA5A70E05D240DD850D16F9 /* Debug */,
+				6870570B97EB4A039A89F86B /* Release */,
+				F59762DD4780487B96B31555 /* MinSizeRel */,
+				0A6166A2ACB444D58EEAE41A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87AA7EA679E844598626C2D2 /* Build configuration list for PBXProject "PracticeCppCLion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D76B674899F47389F146FDB /* Debug */,
+				E0E2077D16A8407E8AA98D91 /* Release */,
+				3C2806D8D51543288741D235 /* MinSizeRel */,
+				8241028D5E9E4CF09547B637 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2EB416F957B46129669396D /* Build configuration list for PBXNativeTarget "test000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F1AD489813495692B99B88 /* Debug */,
+				0DD81B9C3A4841A2986CABF4 /* Release */,
+				E1E185D80BA94D3ABE1A34D0 /* MinSizeRel */,
+				1D5E2FF761B44108986CF273 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CE5B620BB649008A1120F1 /* Project object */;
+}

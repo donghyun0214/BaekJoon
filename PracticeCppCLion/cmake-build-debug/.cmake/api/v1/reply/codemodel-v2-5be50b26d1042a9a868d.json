@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PracticeCppCLion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PracticeCppCLion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PracticeCppCLion-Debug-499365c23638f58858f3.json",
+					"name" : "PracticeCppCLion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test000::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test000-Debug-cdfb16981d8a4a6bcad8.json",
+					"name" : "test000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test22::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test22-Debug-dc3335bd42b525709768.json",
+					"name" : "test22",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug",
+		"source" : "/Users/donghyun/DH/code/PracticeCppCLion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
