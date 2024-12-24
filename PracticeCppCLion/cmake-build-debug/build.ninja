@@ -71,6 +71,68 @@ build Example01: CXX_EXECUTABLE_LINKER__Example01_Debug CMakeFiles/Example01.dir
   TARGET_FILE = Example01
   TARGET_PDB = Example01.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Game
+
+
+#############################################
+# Order-only phony target for Game
+
+build cmake_object_order_depends_target_Game: phony || .
+
+build CMakeFiles/Game.dir/Week06/Game.cpp.o: CXX_COMPILER__Game_unscanned_Debug /Users/donghyun/DH/code/PracticeCppCLion/Week06/Game.cpp || cmake_object_order_depends_target_Game
+  DEP_FILE = CMakeFiles/Game.dir/Week06/Game.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Game.dir
+  OBJECT_FILE_DIR = CMakeFiles/Game.dir/Week06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Game
+
+
+#############################################
+# Link the executable Game
+
+build Game: CXX_EXECUTABLE_LINKER__Game_Debug CMakeFiles/Game.dir/Week06/Game.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Game.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Game
+  TARGET_PDB = Game.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Example01Week06
+
+
+#############################################
+# Order-only phony target for Example01Week06
+
+build cmake_object_order_depends_target_Example01Week06: phony || .
+
+build CMakeFiles/Example01Week06.dir/Week06/Example01Week06.cpp.o: CXX_COMPILER__Example01Week06_unscanned_Debug /Users/donghyun/DH/code/PracticeCppCLion/Week06/Example01Week06.cpp || cmake_object_order_depends_target_Example01Week06
+  DEP_FILE = CMakeFiles/Example01Week06.dir/Week06/Example01Week06.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Example01Week06.dir
+  OBJECT_FILE_DIR = CMakeFiles/Example01Week06.dir/Week06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Example01Week06
+
+
+#############################################
+# Link the executable Example01Week06
+
+build Example01Week06: CXX_EXECUTABLE_LINKER__Example01Week06_Debug CMakeFiles/Example01Week06.dir/Week06/Example01Week06.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Example01Week06.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Example01Week06
+  TARGET_PDB = Example01Week06.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -105,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug
 
-build all: phony Example01
+build all: phony Example01 Game Example01Week06
 
 # =============================================================================
 # Built-in targets
