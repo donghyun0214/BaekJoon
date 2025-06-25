@@ -1,4 +1,0 @@
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeFiles/PracticeCppCLion.dir
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeFiles/test000.dir
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeFiles/ALL_BUILD.dir
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-release/CMakeFiles/ZERO_CHECK.dir

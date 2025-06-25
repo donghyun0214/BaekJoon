@@ -1,5 +1,0 @@
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug/CMakeFiles/Example01.dir
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug/CMakeFiles/Game.dir
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug/CMakeFiles/Example01Week06.dir
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/donghyun/DH/code/PracticeCppCLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
